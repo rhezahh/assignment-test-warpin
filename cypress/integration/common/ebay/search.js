@@ -1,4 +1,4 @@
-import { Given, When, And, Then } from 'cypress-cucumber-preprocessor/steps'
+import { Given, And, Then } from 'cypress-cucumber-preprocessor/steps'
 
 const ebayPage = require('../../../support/ebay/ebay_po')
 
