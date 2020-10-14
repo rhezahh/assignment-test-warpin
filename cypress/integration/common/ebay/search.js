@@ -13,8 +13,8 @@ And(`Type any search string in the search bar. For example: {string}`, keyword =
 })
 
 And(`Change the Search category. For example: {string} and click search`, keyword => {
-    cy.get(object.category).select(keyword)
-    cy.get(object.searhButton).click()
+    cy.get(object.category).select(keyword).wait(1000)
+    cy.get(object.searchButton).click()
 })
 
 Then(`Verify that the page loads completely`, () => {
@@ -23,4 +23,7 @@ Then(`Verify that the page loads completely`, () => {
 
 Then(`Verify that the first result name matches with the {string}`, keyword => {
     cy.get(object.result).eq(0).contains(keyword)
+    cy.get(object.result).eq(0).should(($object) => {
+        expect($object.first()).contain(keyword)
+    })
 })

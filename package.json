@@ -7,7 +7,8 @@
     "clean-reports": "rm -rf cypress/reports/results/*.json cypress/reports/features cypress/reports/index.html",
     "cypress": "npm run clean-reports & ./node_modules/.bin/cypress-tags run --spec \"cypress/integration/*.feature\"",
     "reports": "node cypress/cypress_report.js",
-    "open-reports": "open 'cypress/reports/index.html'"
+    "open-reports": "open 'cypress/reports/index.html'",
+    "cypress-ui": "./node_modules/.bin/cypress open"
   },
   "repository": {
     "type": "git",

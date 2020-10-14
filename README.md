@@ -2,7 +2,7 @@
 
 ### Prerequisites:
 
-- node version `^v12.0.0`
+- node version `^v14.5.0`
 - Install Node.js and npm, we will use npm to install or yarn
 - Cypress x Cucumber for automation testing
 
@@ -16,12 +16,10 @@ $ npm install
 
 ### How to Run:
 
-- use `cypress` for local testing (not uploading the report)
-
 ```sh
-$ npm run cypress -- -e TAGS=''                     | All test
-$ npm run cypress -- -e TAGS='not @skip'            | All test without tag @skip
-$ npm run cypress -- -e TAGS='@tagNameScenario'     | Only @tagNameScenario
-$ npm run cypress -- -e TAGS='' --browser chrome    | Launch the browser
-$ npm run cypress-ui                                | Open the Cypress Desktop from node_modules
+$ npm run cypress                                     | Run all test with headless browser
+$ npm run cypress -- -e TAGS='@ebay' --browser chrome | Run Ebay search scenario with chrome browser
+$ npm run reports                                     | Generate test report
+$ npm run open-reports                                | Open test report
+$ npm run cypress-ui                                  | Open cypress desktop
 ```
