@@ -1,0 +1,17 @@
+{
+    "defaultCommandTimeout": 60000,
+    "animationDistanceThreshold": 5,
+    "blockHosts": null,
+    "execTimeout": 60000,
+    "fixturesFolder": "cypress/fixtures",
+    "integrationFolder": "cypress/integration",
+    "pageLoadTimeout": 60000,
+    "pluginsFile": "cypress/plugins",
+    "requestTimeout": 10000,
+    "responseTimeout": 30000,
+    "supportFile": "cypress/support",
+    "taskTimeout": 60000,
+    "testFiles": "**/*.feature",
+    "video": false,
+    "screenshotsFolder": "cypress/screenshots"
+}
