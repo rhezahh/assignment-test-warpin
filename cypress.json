@@ -13,5 +13,6 @@
     "taskTimeout": 60000,
     "testFiles": "**/*.feature",
     "video": false,
-    "screenshotsFolder": "cypress/screenshots"
+    "screenshotsFolder": "cypress/screenshots",
+    "chromeWebSecurity": false
 }
