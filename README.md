@@ -10,7 +10,7 @@
 
 ```sh
 $ git clone "url this project"
-$ cd assignment-test-warpin
+$ cd cypress-cucumber-ebay-test
 $ npm install
 ```
 
