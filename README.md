@@ -1,4 +1,4 @@
-# Assignment Test Warung Pintar
+# Automation Test using Cypress Cucumber on Ebay
 
 ### Prerequisites:
 
