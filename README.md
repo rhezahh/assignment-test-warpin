@@ -10,7 +10,7 @@
 
 ```sh
 $ git clone "url this project"
-$ cd cypress-cucumber-ebay-test
+$ cd cypress-cucumber-test
 $ npm install
 ```
 
