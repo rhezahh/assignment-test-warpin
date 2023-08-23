@@ -1,5 +1,5 @@
 {
-  "name": "assignment-test-warpin",
+  "name": "cypress-cucumber-test",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rhezahh/assignment-test-warpin.git"
+    "url": "git+https://github.com/rhezahh/cypress-cucumber-test.git"
   },
   "author": "Rheza Haryo Hanggara",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rhezahh/assignment-test-warpin/issues"
+    "url": "https://github.com/rhezahh/cypress-cucumber-test/issues"
   },
-  "homepage": "https://github.com/rhezahh/assignment-test-warpin#readme",
+  "homepage": "https://github.com/rhezahh/cypress-cucumber-test#readme",
   "dependencies": {
     "cypress": "^5.3.0",
     "cypress-cucumber-preprocessor": "^3.0.0",
